@@ -93,6 +93,7 @@ a {
 .tours {
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
 }
 
@@ -312,12 +313,6 @@ a {
     background-image: url('../images/icons/time.png');
 }
 
-/* 
-.chart-image {
-    display: inline-block;
-    vertical-align: middle;
-} */
-
 .cart-link {
     display: block;
     background-color: #323232;
@@ -384,3 +379,5 @@ input[type='radio'].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+    
