@@ -251,7 +251,7 @@ html {
 
 .team_item:hover .first_layer {
     transform: translate(-10px, -10px);
-    z-index: 2;
+    z-index: 3;
 }
 
 .team_item:hover .second_layer {
