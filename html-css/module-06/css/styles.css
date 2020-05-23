@@ -277,6 +277,11 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+  
+.layer_link:hover,
+.layer_link:focus {
+    background-color: #95e1d3;
+}
 
 .facebook {
     background-image: url('../img/social_icons/facebook.png');
