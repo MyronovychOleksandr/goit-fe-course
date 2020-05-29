@@ -1,0 +1,259 @@
+body {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.wrapper_header {
+    background: #fff;
+}
+
+.site_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+    margin-bottom: 50px;
+}
+
+.site_logo {
+    color: #fed136;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Great Vibes', cursive;
+}
+
+.header_list {
+    list-style: none;
+    width: 484px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_link {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: color .2s linear;
+}
+
+.header_link:hover,
+.header_link:focus {
+    color: #fed136;
+}
+
+/* SERVICES */
+
+.wrapper_services {
+    background: #fff;
+}
+
+.services_header {
+    font-size: 40px;
+    line-height: 76px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services_header_desc {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #777777;
+    font-family: 'Courgette', cursive;
+    text-align: center; 
+    margin-bottom: 78px;
+}
+
+.services_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 120px;
+}
+
+.services_item {
+    width: 290px;
+}
+
+.services_item::before {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    border: 3px solid rgb(254, 209, 54);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.basket::before {
+    background-image: url('../img/icon-basket.png');
+}
+
+.laptop::before {
+    background-image: url('../img/icon-laptop.png');
+}
+
+.locked::before {
+    background-image: url('../img/icon-locked.png');
+}
+
+.services_item_header {
+    text-align: center;
+    color: #222222;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 18px;
+}
+
+.services_item_content {
+    text-align: center;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+  
+/* CONTACT */
+
+.wrapper_contact {
+    background: #222222;
+    background-image: url('../img/map_image.png');
+    background-repeat: no-repeat;
+    background-position: 100% 120px;
+}
+
+.contact {
+    padding-top: 106px;
+}
+
+.contact_header {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact_header_content {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.form {
+    width: 940px;
+    padding-bottom: 116px;
+}
+
+.form_field {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form_left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+}
+
+.text {
+    border-radius: 2px;
+    border: none;
+    width: 458px;
+    height: 52px;
+    padding-left: 22px;
+}
+
+.text:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.coment {
+    width: 456px;
+    padding-top: 18px;
+    padding-left: 22px;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #bbbbbb;
+}
+
+.input[required]:valid {
+    outline-color: green;
+}
+
+.input[required]:invalid {
+    outline-color: red;
+}
+
+.button {
+    width: 240px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    background: #fed136;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
