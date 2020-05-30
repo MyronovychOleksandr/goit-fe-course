@@ -213,13 +213,15 @@ a {
     width: 456px;
     padding-top: 18px;
     padding-left: 22px;
+    resize: none;
 }
 
-.input::placeholder {
+.input {
     font-size: 14px;
     line-height: 16px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     color: #000;
 }
 
