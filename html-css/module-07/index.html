@@ -11,8 +11,9 @@
 </head>
 
 <body>
-    <div class="wrapper_header">
-        <header class="container">
+
+    <header class="wrapper_header">
+        <div class="container">
             <nav class="site_nav">
                 <a href="" class="site_logo">Golden</a>
                 <ul class="header_list">
@@ -33,12 +34,12 @@
                     </li>
                 </ul>
             </nav>
-        </header>
-    </div>
-    <main>
+        </div>
+    </header>
 
-        <div class="wrapper_services">
-            <section class="services container">
+    <main>
+        <section class="wrapper_services">
+            <div class="services container">
                 <h2 class="services_header">Services</h2>
                 <p class="services_header_desc">Proin iaculis purus consequat sem cure.</p>
                 <ul class="services_list">
@@ -58,11 +59,11 @@
                             porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <div class="wrapper_contact">
-            <section class="contact container">
+        <section class="wrapper_contact">
+            <div class="contact container">
                 <h2 class="contact_header">Contact</h2>
                 <p class="contact_header_content">Proin iaculis purus consequat sem cure.</p>
                 <form action="#" class="form">
@@ -72,14 +73,15 @@
                             <input type="email" name="email" class="input text" placeholder="Your e-mail *" required>
                             <input type="text" name="subject" class="input text" placeholder="Subject">
                         </div>
-                        <textarea name="comment" cols="40" rows="3" class="input coment" placeholder="Your message *" required></textarea>
+                        <textarea name="comment" cols="40" rows="3" class="input coment" placeholder="Your message *"
+                            required></textarea>
                     </div>
-                    <input type="submit" value="Sent message" class="button" required>
+                    <button class="button" value="button">Sent message</button>
                 </form>
-            </section>
-        </div>
-
+            </div>
+        </section>
     </main>
+
 </body>
 
 </html>

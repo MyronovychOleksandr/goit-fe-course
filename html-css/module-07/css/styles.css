@@ -234,11 +234,11 @@ a {
     color: #bbbbbb;
 }
 
-.input[required]:valid {
+.input:valid {
     outline-color: green;
 }
 
-.input[required]:invalid {
+.input:invalid {
     outline-color: red;
 }
 
