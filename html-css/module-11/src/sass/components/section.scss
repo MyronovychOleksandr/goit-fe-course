@@ -1,0 +1,17 @@
+.section__title {
+    font-size: 30px;
+}
+
+.section__title::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 3px;
+    background: $secondary-accent-color;
+    margin-top: 40px;
+}
+
+.section__title-decor {
+    font-size: 24px;
+}
