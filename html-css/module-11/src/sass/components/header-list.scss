@@ -13,31 +13,30 @@
     color: $primary-white-color;
     padding-bottom: 10px;
     font-weight: 400;
+
+    &:hover,
+    &:focus {
+    color: $primary-accent-color;
+    border-bottom: 3px solid $primary-accent-color;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    }
 }
 
 .header__item-btn {
     cursor: pointer;
 }
 
-.header__link--hover:hover,
-.header__link--hover:focus {
-    color: $primary-accent-color;
-    border-bottom: 3px solid $primary-accent-color;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-
 .header__item-icon {
     display: inline-block;
     fill: $primary-white-color;
-}
 
-.header__item-icon--hover:hover,
-.header__item-icon--hover:focus {
+    &:hover,
+    &:focus {
     fill: $primary-accent-color;
+    }
 }
-
 
 .header__item-icon--chart {
     width: 20px;

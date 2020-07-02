@@ -105,13 +105,13 @@
     width: 56px;
     height: 56px;
     background: $primary-accent-color;
-}
-  
-.first-layer__link:hover,
-.first-layer__link:focus {
+
+    &:hover,
+    &:focus {
     background-color: $secondary-accent-color;
 }
-
+}
+  
 .first-layer__link:hover .link-icon {
     fill: $primary-white-color;
 }
